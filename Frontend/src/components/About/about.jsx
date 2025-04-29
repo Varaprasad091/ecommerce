@@ -7,7 +7,7 @@ const About = () => {
       <section className="text-center my-5">
         <h1>About Us</h1>
         <p className="lead">
-          We are a passionate team dedicated to providing the best solutions for our customers.
+          We are a passionate team dedicated to providing the best solutions for our ourself.
         </p>
       </section>
 
