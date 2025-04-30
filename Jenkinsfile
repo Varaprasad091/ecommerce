@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         // Define environment variables (optional)
-        APP_NAME = 'ecommerce-frontend'
-        DOCKER_IMAGE = 'varaprasadsuddala/ecommerce-frontend'  // Update with your Docker Hub username and project name
+        APP_NAME = 'myimage'
+        DOCKER_IMAGE = 'varaprasadsuddala/myimage:latest'  // Update with your Docker Hub username and project name
     }
 
     stages {
