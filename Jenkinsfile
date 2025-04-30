@@ -11,7 +11,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub (or any Git repository you use)
-                git 'https://github.com/Varaprasad091/ecommerce.git'  // Your repository URL
+                git branch: 'main', url: 'https://github.com/Varaprasad091/ecommerce.git'
+ // Your repository URL
             }
         }
 
